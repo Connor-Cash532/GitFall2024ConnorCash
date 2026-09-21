@@ -1,0 +1,581 @@
+Last login: Thu Sep 10 10:04:24 on ttys000
+connorcash@Connors-MacBook-Pro ~ % mkdir csc2040
+connorcash@Connors-MacBook-Pro ~ % cd csc2040 
+connorcash@Connors-MacBook-Pro csc2040 % git clone https://github.com/Connor-Cash532/GitFall2024ConnorCash
+Cloning into 'GitFall2024ConnorCash'...
+remote: Enumerating objects: 30, done.
+remote: Counting objects: 100% (5/5), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 30 (delta 3), reused 3 (delta 3), pack-reused 25 (from 1)
+Receiving objects: 100% (30/30), done.
+Resolving deltas: 100% (5/5), done.
+connorcash@Connors-MacBook-Pro csc2040 % ls
+GitFall2024ConnorCash
+connorcash@Connors-MacBook-Pro csc2040 % cd GitFall2024ConnorCash 
+connorcash@Connors-MacBook-Pro GitFall2024ConnorCash % ls
+BookShop.java	Main.java	README.md
+connorcash@Connors-MacBook-Pro GitFall2024ConnorCash % clear
+
+
+
+
+
+
+connorcash@Connors-MacBook-Pro GitFall2024ConnorCash % git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+connorcash@Connors-MacBook-Pro GitFall2024ConnorCash % git log
+commit 5f75e751488fd0b16c81325c9ae814ff65f0c95b (HEAD -> main, origin/main, origin/HEAD)
+Merge: fca18d2 b3e573c
+Author: Esteban Parra <estebanpr014@gmail.com>
+Date:   Tue Sep 10 10:10:46 2024 -0500
+
+    Merge branch 'readme'
+    I do not like VI
+    that is what
+
+commit fca18d2606f45601cf99aec4f279339a0dee18d8
+Author: Esteban Parra <estebanpr014@gmail.com>
+Date:   Tue Sep 10 10:08:52 2024 -0500
+
+    BookShop class create
+
+commit b3e573c8b75940e9bbcda519b0bece046f4b60eb
+Author: Esteban Parra <estebanpr014@gmail.com>
+Date:   Tue Sep 10 10:06:47 2024 -0500
+
+    added another name
+
+commit ea123f795a7a0cfc8de45c824e9b7cf17985d355
+ ESCOC
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+5f0c95b (HEAD -> main, origin/main, origin/HEAD)
+
+l.com>
+
+
+
+
+
+
+dee18d8
+l.com>
+
+
+
+
+f4b60eb
+l.com>
+
+
+
+
+985d355
+l.com>
+ ESCOC
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+in/HEAD)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ESCOC
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ESCOD
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+in/HEAD)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ESCOD
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+5f0c95b (HEAD -> main, origin/main, origin/HEAD)
+
+l.com>
+
+
+
+
+
+
+dee18d8
+l.com>
+
+
+
+
+f4b60eb
+l.com>
+
+
+
+
+985d355
+l.com>
+ ESCOD
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+commit 5f75e751488fd0b16c81325c9ae814ff65f0c95b (HEAD -> main, origin/main, origin/HEAD)
+Merge: fca18d2 b3e573c
+Author: Esteban Parra <estebanpr014@gmail.com>
+Date:   Tue Sep 10 10:10:46 2024 -0500
+
+    Merge branch 'readme'
+    I do not like VI
+    that is what
+
+commit fca18d2606f45601cf99aec4f279339a0dee18d8
+Author: Esteban Parra <estebanpr014@gmail.com>
+Date:   Tue Sep 10 10:08:52 2024 -0500
+
+    BookShop class create
+
+commit b3e573c8b75940e9bbcda519b0bece046f4b60eb
+Author: Esteban Parra <estebanpr014@gmail.com>
+Date:   Tue Sep 10 10:06:47 2024 -0500
+
+    added another name
+
+commit ea123f795a7a0cfc8de45c824e9b7cf17985d355
+ ESCOD
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+commit 5f75e751488fd0b16c81325c9ae814ff65f0c95b (HEAD -> main, origin/main, origin/HEAD)
+Merge: fca18d2 b3e573c
+Author: Esteban Parra <estebanpr014@gmail.com>
+Date:   Tue Sep 10 10:10:46 2024 -0500
+
+    Merge branch 'readme'
+    I do not like VI
+    that is what
+
+commit fca18d2606f45601cf99aec4f279339a0dee18d8
+Author: Esteban Parra <estebanpr014@gmail.com>
+Date:   Tue Sep 10 10:08:52 2024 -0500
+
+    BookShop class create
+
+commit b3e573c8b75940e9bbcda519b0bece046f4b60eb
+Author: Esteban Parra <estebanpr014@gmail.com>
+Date:   Tue Sep 10 10:06:47 2024 -0500
+
+    added another name
+
+commit ea123f795a7a0cfc8de45c824e9b7cf17985d355
+ ESCOD
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+commit 5f75e751488fd0b16c81325c9ae814ff65f0c95b (HEAD -> main, origin/main, origin/HEAD)
+Merge: fca18d2 b3e573c
+Author: Esteban Parra <estebanpr014@gmail.com>
+Date:   Tue Sep 10 10:10:46 2024 -0500
+
+    Merge branch 'readme'
+    I do not like VI
+    that is what
+
+commit fca18d2606f45601cf99aec4f279339a0dee18d8
+Author: Esteban Parra <estebanpr014@gmail.com>
+Date:   Tue Sep 10 10:08:52 2024 -0500
+
+    BookShop class create
+
+commit b3e573c8b75940e9bbcda519b0bece046f4b60eb
+Author: Esteban Parra <estebanpr014@gmail.com>
+Date:   Tue Sep 10 10:06:47 2024 -0500
+
+    added another name
+
+commit ea123f795a7a0cfc8de45c824e9b7cf17985d355
+Author: Esteban Parra <estebanpr014@gmail.com>
+Date:   Tue Sep 10 10:06:30 2024 -0500
+
+    added another name
+
+commit 4cd474a9c054ca0c47dcf47ac7ab0a44b6c66757
+Author: Esteban Parra <estebanpr014@gmail.com>
+Date:   Tue Sep 10 10:05:55 2024 -0500
+
+    sllepy message
+
+commit 82280194a20dfdfea27311d89fdb20761655217f
+Author: Esteban Parra <estebanpr014@gmail.com>
+Date:   Tue Sep 10 10:03:00 2024 -0500
+
+    Updated readme file
+
+commit 985e63e6d4226c156c56c38d061e57e1672dd90b
+Author: Esteban Parra <estebanpr014@gmail.com>
+Date:   Tue Sep 10 09:59:08 2024 -0500
+
+    Added more names
+
+commit 21ea409f47aa292619b8dea918c0c3eb02f82ccc
+Author: Esteban Parra <estebanpr014@gmail.com>
+Date:   Tue Sep 10 09:56:24 2024 -0500
+
+    Added names LinkedList
+
+commit b02c65d884b0a0f344a482cbb0366139b7bcd969
+Author: Esteban Parra <estebanpr014@gmail.com>
+Date:   Tue Sep 10 09:49:33 2024 -0500
+
+    added empty Main.java
+
+commit bdd2fa9c9cb3d6e17a156106f0da1ac7fd9194ff
+Author: Esteban Parra <estebanpr014@gmail.com>
+Date:   Tue Sep 10 09:25:22 2024 -0500
+
+    starter files
+connorcash@Connors-MacBook-Pro GitFall2024ConnorCash % git shortlog
+Esteban Parra (10):
+      starter files
+      added empty Main.java
+      Added names LinkedList
+      Added more names
+      Updated readme file
+      sllepy message
+      added another name
+      added another name
+      BookShop class create
+      Merge branch 'readme' I do not like VI that is what
+
+connorcash@Connors-MacBook-Pro GitFall2024ConnorCash % git log --graph
+*   commit 5f75e751488fd0b16c81325c9ae814ff65f0c95b (HEAD -> main, origin/main, origin/HEAD)
+|\  Merge: fca18d2 b3e573c
+| | Author: Esteban Parra <estebanpr014@gmail.com>
+| | Date:   Tue Sep 10 10:10:46 2024 -0500
+| | 
+| |     Merge branch 'readme'
+| |     I do not like VI
+| |     that is what
+| | 
+| * commit b3e573c8b75940e9bbcda519b0bece046f4b60eb
+| | Author: Esteban Parra <estebanpr014@gmail.com>
+| | Date:   Tue Sep 10 10:06:47 2024 -0500
+| | 
+| |     added another name
+| | 
+| * commit ea123f795a7a0cfc8de45c824e9b7cf17985d355
+| | Author: Esteban Parra <estebanpr014@gmail.com>
+| | Date:   Tue Sep 10 10:06:30 2024 -0500
+| | 
+| |     added another name
+| | 
+| * commit 4cd474a9c054ca0c47dcf47ac7ab0a44b6c66757
+| | Author: Esteban Parra <estebanpr014@gmail.com>
+| | Date:   Tue Sep 10 10:05:55 2024 -0500
+| | 
+| |     sllepy message
+| | 
+* | commit fca18d2606f45601cf99aec4f279339a0dee18d8
+|/  Author: Esteban Parra <estebanpr014@gmail.com>
+|   Date:   Tue Sep 10 10:08:52 2024 -0500
+|   
+|       BookShop class create
+| 
+* commit 82280194a20dfdfea27311d89fdb20761655217f
+| Author: Esteban Parra <estebanpr014@gmail.com>
+| Date:   Tue Sep 10 10:03:00 2024 -0500
+| 
+|     Updated readme file
+| 
+* commit 985e63e6d4226c156c56c38d061e57e1672dd90b
+| Author: Esteban Parra <estebanpr014@gmail.com>
+| Date:   Tue Sep 10 09:59:08 2024 -0500
+| 
+|     Added more names
+| 
+* commit 21ea409f47aa292619b8dea918c0c3eb02f82ccc
+| Author: Esteban Parra <estebanpr014@gmail.com>
+| Date:   Tue Sep 10 09:56:24 2024 -0500
+| 
+|     Added names LinkedList
+| 
+* commit b02c65d884b0a0f344a482cbb0366139b7bcd969
+| Author: Esteban Parra <estebanpr014@gmail.com>
+| Date:   Tue Sep 10 09:49:33 2024 -0500
+| 
+|     added empty Main.java
+| 
+* commit bdd2fa9c9cb3d6e17a156106f0da1ac7fd9194ff
+  Author: Esteban Parra <estebanpr014@gmail.com>
+  Date:   Tue Sep 10 09:25:22 2024 -0500
+  
+      starter files
+connorcash@Connors-MacBook-Pro GitFall2024ConnorCash % git log --graph --oneline
+*   5f75e75 (HEAD -> main, origin/main, origin/HEAD) Merge branch 'readme' I do not like VI that is what
+|\  
+| * b3e573c added another name
+| * ea123f7 added another name
+| * 4cd474a sllepy message
+* | fca18d2 BookShop class create
+|/  
+* 8228019 Updated readme file
+* 985e63e Added more names
+* 21ea409 Added names LinkedList
+* b02c65d added empty Main.java
+* bdd2fa9 starter files
+connorcash@Connors-MacBook-Pro GitFall2024ConnorCash % git remote
+origin
+connorcash@Connors-MacBook-Pro GitFall2024ConnorCash % touch properties.txt
+connorcash@Connors-MacBook-Pro GitFall2024ConnorCash % vi .gitignore
+connorcash@Connors-MacBook-Pro GitFall2024ConnorCash % touch book.txt
+connorcash@Connors-MacBook-Pro GitFall2024ConnorCash % vi book.txt
+connorcash@Connors-MacBook-Pro GitFall2024ConnorCash % git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	.gitignore
+	book.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+connorcash@Connors-MacBook-Pro GitFall2024ConnorCash % ls
+book.txt	BookShop.java	Main.java	properties.txt	README.md
+connorcash@Connors-MacBook-Pro GitFall2024ConnorCash % 

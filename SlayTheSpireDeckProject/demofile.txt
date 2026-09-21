@@ -1,0 +1,1000 @@
+Die Die Die:1
+Bouncing Flask:2
+Recycle:1
+Cut Through Fate:1
+Halt:0
+Chill:0
+Burning Pact:1
+Flame Barrier:2
+Zap:1
+Finisher:1
+Seeing Red:1
+Double Tap:1
+Clothesline:2
+Phantasmal Killer:1
+Biased Cognition:1
+Foreign Influence:0
+Sentinel:1
+Thunder Strike:3
+Escape Plan:0
+Hand of Greed:2
+Madness:1
+Intimidate:0
+Strike:1
+Halt:0
+Impervious:2
+Searing Blow:2
+Creative AI:3
+Bowling Bash:1
+Heavy Blade:2
+Wreath of Flame:1
+Genetic Algorithm:1
+Spot Weakness:1
+Foresight:1
+Wheel Kick:2
+Bullseye:1
+Wreath of Flame:1
+Concentrate:0
+Hyperbeam:2
+Pommel Strike:1
+Entrench+:1
+Havoc+:0
+Zap:1
+Barricade+:2
+Crescendo+:0
+Scrawl+:0
+Body Slam+:0
+Wave of the Hand:1
+TURBO:0
+Carve Reality:1
+Dualcast+:0
+Apparition:1
+Simmering Fury:1
+Electrodynamics:2
+Foresight:1
+Biased Cognition:1
+Warcry:0
+Devotion:1
+Meditate:1
+Recursion+:0
+Omniscience:4
+Metamorphosis:2
+The Bomb:2
+Ghostly Armor:1
+Double Energy+:0
+Carnage:2
+Dualcast+:0
+Fusion+:1
+Entrench+:1
+Clothesline:2
+Meteor Strike:5
+Reprogram:1
+Sanctity:1
+Expunger:1
+Anger:0
+Simmering Fury:1
+Go for the Eyes:0
+Boot Sequence:0
+Bullet Time+:2
+Warcry:0
+Glass Knife:1
+Barrage:1
+Alchemize+:0
+Glass Knife:1
+Loop:1
+Brutality:0
+Cold Snap:1
+Anger:0
+Flying Sleeves:1
+Ball Lightning:1
+FTL:0
+Meditate:1
+Brutality:0
+Bloodletting:0
+Adrenaline:0
+Chrysalis:2
+Iron Wave:1
+Heavy Blade:2
+Slimed:1
+Beta+:1
+Scrawl:1
+Doom and Gloom:2
+Corruption+:2
+Eruption+:1
+Crescendo:1
+Ritual Dagger:1
+Feel No Pain:1
+Flying Knee:1
+Intimidate:0
+Apotheosis+:1
+Die Die Die:1
+Predator:2
+Burst:1
+Stack:1
+Secret Technique:0
+Signature Move:2
+Electrodynamics:2
+Sadistic Nature:0
+Omniscience+:3
+Evolve:1
+Creative AI+:2
+Windmill Strike:2
+Evaluate:1
+Jack of All Trades:0
+Double Tap:1
+All-Out Attack:1
+Reboot:0
+Spot Weakness:1
+Charge Battery:1
+Master Reality:1
+Blasphemy:1
+Wreath of Flame:1
+Seeing Red:1
+Carnage:2
+Dualcast+:0
+Uppercut:2
+Masterful Stab:0
+Wave of the Hand:1
+Capacitor:1
+Master Reality+:0
+Scrawl:1
+Pommel Strike:1
+Mind Blast:2
+Flex:0
+Armaments:1
+Bouncing Flask:2
+Terror:1
+Flying Knee:1
+Flame Barrier:2
+Metamorphosis:2
+Entrench+:1
+Bludgeon:3
+Heavy Blade:2
+Purity:0
+Reach Heaven:2
+Creative AI+:2
+Deceive Reality:1
+Tools of the Trade:1
+Die Die Die:1
+Endless Agony:0
+Metallicize:1
+Double Energy+:0
+Sands of Time:4
+Panacea:0
+Empty Fist:1
+Expertise:1
+Havoc+:0
+Core Surge:1
+Rampage:1
+Foreign Influence:0
+Recursion+:0
+Quick Slash:1
+Good Instincts:0
+Impatience:0
+Wave of the Hand:1
+Simmering Fury:1
+Bullseye:1
+Concentrate:0
+Expunger:1
+Recycle:1
+Fiend Fire:2
+Demon Form:3
+Indignation:1
+Offering:0
+Tools of the Trade+:0
+Vault+:2
+Omniscience+:3
+Defend:1
+Buffer:2
+Perseverance:1
+Flying Knee:1
+Wraith Form:3
+Steam Barrier:0
+Dramatic Entrance:0
+Evaluate:1
+Magnetism:2
+Reprogram:1
+Inflame:1
+Bludgeon:3
+Wallop:2
+Alchemize+:0
+Double Energy+:0
+Bite:1
+Accuracy:1
+Escape Plan:0
+Streamline:2
+Dropkick:1
+Combust:1
+Blood for Blood:4
+Burst:1
+Foreign Influence:0
+Havoc:1
+Panacea:0
+Creative AI+:2
+Alchemize:1
+Body Slam:1
+Vigilance:2
+Catalyst:1
+Discovery:1
+All-Out Attack:1
+Blade Dance:1
+Rip and Tear:1
+Study:2
+Strike:1
+Consume:2
+Claw:0
+Wallop:2
+Just Lucky:0
+Accuracy:1
+Iron Wave:1
+Sash Whip:1
+Infinite Blades:1
+Doom and Gloom:2
+Heavy Blade:2
+All-Out Attack:1
+Meteor Strike:5
+Berserk:0
+Wheel Kick:2
+Distraction+:0
+Reprogram:1
+A Thousand Cuts:2
+Vault:3
+Signature Move:2
+Zap:1
+Evaluate:1
+Tantrum:1
+Alpha:1
+Armaments:1
+Spot Weakness:1
+Study:2
+Just Lucky:0
+Bowling Bash:1
+True Grit:1
+Bullet Time+:2
+Dramatic Entrance:0
+Aggregate:1
+Blade Dance:1
+Bane:1
+Escape Plan:0
+Buffer:2
+Inner Peace:1
+Footwork:1
+Searing Blow:2
+Sword Boomerang:1
+Forethought:0
+Blasphemy:1
+Swift Strike:0
+Bane:1
+Overclock:0
+Sadistic Nature:0
+Envenom:2
+Exhume+:0
+Magnetism:2
+Bane:1
+Core Surge:1
+Fear No Evil:1
+Stack:1
+Good Instincts:0
+Bullet Time:3
+Battle Hymn:1
+Dagger Spray:1
+Wave of the Hand:1
+Brutality:0
+Expunger:1
+Catalyst:1
+Buffer:2
+Conclude:1
+Recycle:1
+Vault:3
+Bullet Time+:2
+Tantrum:1
+Blood for Blood+:3
+Deflect:0
+Inner Peace:1
+A Thousand Cuts:2
+Bite:1
+Leg Sweep:2
+Pummel:1
+White Noise+:0
+Second Wind:1
+Terror+:0
+Sword Boomerang:1
+Fasting:2
+Calculated Gamble:0
+Entrench+:1
+Rushdown+:0
+Heatsinks:1
+Seek:0
+Electrodynamics:2
+Deadly Poison:1
+Grand Finale:0
+Wave of the Hand:1
+Finesse:0
+Flex:0
+Weave:0
+Metamorphosis:2
+Rage:0
+Carve Reality:1
+Ragnarok:3
+Blood for Blood+:3
+Pressure Points:1
+Reboot:0
+Hologram:1
+Demon Form:3
+Reaper:2
+Dualcast+:0
+Perseverance:1
+Thinking Ahead:0
+Fiend Fire:2
+Expunger:1
+Sadistic Nature:0
+Nightmare:3
+Follow-Up:1
+Discovery:1
+Evolve:1
+Fission:0
+Conclude:1
+Wreath of Flame:1
+Eruption:2
+Accuracy:1
+Boot Sequence:0
+Reach Heaven:2
+Apotheosis+:1
+Footwork:1
+Apotheosis+:1
+Master Reality+:0
+Lesson Learned:2
+Limit Break:1
+Ragnarok:3
+Havoc+:0
+Bloodletting:0
+Bowling Bash:1
+Wheel Kick:2
+Phantasmal Killer:1
+Spirit Shield:2
+Crush Joints:1
+Rage:0
+Pray:1
+Genetic Algorithm:1
+Apotheosis+:1
+Madness+:0
+Hemokinesis:1
+Mental Fortress:1
+Bullet Time+:2
+Alpha:1
+Scrawl+:0
+Deflect:0
+Strike:1
+Double Tap:1
+Miracle:0
+Fusion+:1
+Pray:1
+Panic Button:0
+Berserk:0
+Tools of the Trade+:0
+Magnetism+:1
+White Noise:1
+Dualcast+:0
+Bouncing Flask:2
+Uppercut:2
+Dash:2
+Strike:1
+Strike:1
+Beam Cell:0
+Crippling Cloud:2
+Consecrate:0
+Perfected Strike:2
+Strike:1
+Magnetism:2
+Predator:2
+Follow-Up:1
+Shockwave:2
+Reach Heaven:2
+Deep Breath:0
+Simmering Fury:1
+Unload:1
+Calculated Gamble:0
+Havoc:1
+Like Water:1
+Uppercut:2
+Nightmare:3
+Chrysalis:2
+Rampage:1
+Shiv:0
+Wallop:2
+Empty Mind:1
+Shiv:0
+Compile Driver:1
+Crescendo+:0
+Meditate:1
+Caltrops:1
+Rampage:1
+Lesson Learned:2
+Buffer:2
+Terror:1
+Indignation:1
+Rushdown+:0
+Foresight:1
+Slimed:1
+Neutralize:0
+Reprogram:1
+Rip and Tear:1
+Magnetism:2
+Barrage:1
+Envenom+:1
+Neutralize:0
+Headbutt:1
+Body Slam:1
+Claw:0
+Apotheosis+:1
+Bane:1
+Reach Heaven:2
+Devotion:1
+White Noise:1
+Finesse:0
+Phantasmal Killer+:0
+Wreath of Flame:1
+Noxious Fumes:1
+Panacea:0
+All for One:2
+Entrench+:1
+Uppercut:2
+Ball Lightning:1
+Sentinel:1
+Power Through:1
+Expertise:1
+Tranquility+:0
+Corruption+:2
+Streamline:2
+Recursion:1
+Double Energy:1
+Darkness:1
+Beta+:1
+Fiend Fire:2
+Scrawl:1
+Mind Blast:2
+Hologram:1
+Dropkick:1
+All for One:2
+Barricade+:2
+Caltrops:1
+Cold Snap:1
+Sucker Punch:1
+Power Through:1
+Combust:1
+Trip:0
+Bullet Time+:2
+Escape Plan:0
+Omega:3
+Zap:1
+Impervious:2
+Compile Driver:1
+Apparition:1
+Bouncing Flask:2
+Metamorphosis:2
+Aggregate:1
+Entrench:2
+Aggregate:1
+Deadly Poison:1
+Apparition:1
+Shiv:0
+Beta:2
+Wave of the Hand:1
+Flying Sleeves:1
+Amplify:1
+Smite:1
+Aggregate:1
+Thinking Ahead:0
+Empty Mind:1
+Chrysalis:2
+Hologram:1
+Meteor Strike:5
+Storm:1
+Burning Pact:1
+Swift Strike:0
+Windmill Strike:2
+Streamline:2
+Heavy Blade:2
+Meditate:1
+Empty Fist:1
+Empty Body:1
+Buffer:2
+Blind:0
+Reckless Charge:0
+Noxious Fumes:1
+Seek:0
+Choke:2
+Leap:1
+Defend:1
+Self Repair:1
+Limit Break:1
+Insight:0
+Sucker Punch:1
+Tools of the Trade:1
+Slimed:1
+Blizzard:1
+Self Repair:1
+Smite:1
+Barrage:1
+Barricade+:2
+Catalyst:1
+Flurry of Blows:0
+Twin Strike:1
+Overclock:0
+Backstab:0
+Poisoned Stab:1
+Reaper:2
+Conclude:1
+Nightmare:3
+Bludgeon:3
+Dark Shackles:0
+Apotheosis+:1
+Acrobatics:1
+Fission:0
+Feed:1
+Scrawl+:0
+Panacea:0
+Like Water:1
+Devotion:1
+Talk to the Hand:1
+Trip:0
+Recursion:1
+Warcry:0
+Entrench+:1
+Defend:1
+Thunder Strike:3
+Cloak and Dagger:1
+Armaments:1
+Hello World:1
+Rampage:1
+Body Slam+:0
+Melter:1
+Genetic Algorithm:1
+Consume:2
+Third Eye:1
+Shrug It Off:1
+Swift Strike:0
+Machine Learning:1
+Auto-Shields:1
+Endless Agony:0
+Empty Body:1
+Empty Body:1
+Omega:3
+Survivor:1
+Capacitor:1
+Omniscience:4
+Spot Weakness:1
+Dash:2
+Entrench+:1
+Dagger Throw:1
+Empty Body:1
+Impatience:0
+Fusion+:1
+Rainbow:2
+Dualcast:1
+Blind:0
+Heatsinks:1
+Beta:2
+Zap+:0
+Metamorphosis:2
+Clothesline:2
+Insight:0
+Cold Snap:1
+Piercing Wail:1
+Bite:1
+J.A.X.:0
+Clothesline:2
+Omniscience:4
+Glass Knife:1
+Infernal Blade:1
+Biased Cognition:1
+Mayhem:2
+Secret Weapon:0
+Reaper:2
+Eruption:2
+Sentinel:1
+Aggregate:1
+Burning Pact:1
+Study:2
+Static Discharge:1
+Tantrum:1
+Envenom:2
+Scrawl+:0
+Caltrops:1
+Loop:1
+Corpse Explosion:2
+Halt:0
+Barricade+:2
+FTL:0
+Noxious Fumes:1
+Flying Sleeves:1
+Barricade+:2
+Mind Blast+:1
+Swivel:2
+Sentinel:1
+Metallicize:1
+Meteor Strike:5
+Fiend Fire:2
+Bludgeon:3
+Bludgeon:3
+Coolheaded:1
+Vigilance:2
+Apparition:1
+Evolve:1
+Footwork:1
+Violence:0
+Brilliance:1
+Smite:1
+Body Slam:1
+Mayhem:2
+Rushdown+:0
+Discovery:1
+Riddle with Holes:2
+Electrodynamics:2
+Dropkick:1
+Tantrum:1
+Eviscerate:3
+Poisoned Stab:1
+Indignation:1
+Loop:1
+Glass Knife:1
+Entrench+:1
+Havoc+:0
+Windmill Strike:2
+Rebound:1
+Perseverance:1
+Impatience:0
+Madness:1
+Stack:1
+Equilibrium:2
+Accuracy:1
+Reprogram:1
+Ritual Dagger:1
+Flash of Steel:0
+Accuracy:1
+J.A.X.:0
+Follow-Up:1
+Devotion:1
+Slimed:1
+Reboot:0
+Reach Heaven:2
+Alchemize+:0
+Panache:0
+Foreign Influence:0
+Glacier:2
+Poisoned Stab:1
+Recycle+:0
+The Bomb:2
+Deva Form:3
+Die Die Die:1
+Quick Slash:1
+Loop:1
+Creative AI:3
+Escape Plan:0
+Mental Fortress:1
+Uppercut:2
+Anger:0
+Survivor:1
+Offering:0
+Pommel Strike:1
+Dramatic Entrance:0
+Deflect:0
+Nirvana:1
+Melter:1
+Protect:2
+Second Wind:1
+Thunder Strike:3
+Die Die Die:1
+Foreign Influence:0
+Setup+:0
+Bash:2
+Dash:2
+Poisoned Stab:1
+Glass Knife:1
+Jack of All Trades:0
+Empty Body:1
+Fission:0
+Stack:1
+Blood for Blood:4
+Panacea:0
+Shockwave:2
+Hologram:1
+Static Discharge:1
+Halt:0
+Panache:0
+Fasting:2
+Rampage:1
+Bandage Up:0
+Bullet Time+:2
+Heatsinks:1
+Corruption:3
+Double Tap:1
+Creative AI+:2
+Heavy Blade:2
+FTL:0
+Glass Knife:1
+Cleave:1
+Purity:0
+Mental Fortress:1
+Strike:1
+True Grit:1
+Bane:1
+Finisher:1
+Simmering Fury:1
+Leg Sweep:2
+Creative AI+:2
+Core Surge:1
+Sash Whip:1
+Apotheosis+:1
+Trip:0
+Bludgeon:3
+Crescendo:1
+Hyperbeam:2
+Perseverance:1
+Secret Weapon:0
+Apotheosis+:1
+Perfected Strike:2
+Shiv:0
+Just Lucky:0
+Shrug It Off:1
+Spirit Shield:2
+Distraction:1
+Mayhem+:1
+Wreath of Flame:1
+Vault:3
+Crippling Cloud:2
+Thunderclap:1
+Evaluate:1
+Havoc+:0
+Crippling Cloud:2
+Windmill Strike:2
+Corruption+:2
+Battle Trance:0
+Talk to the Hand:1
+Hemokinesis:1
+Hello World:1
+Body Slam:1
+Defragment:1
+Alchemize+:0
+Evolve:1
+Hello World:1
+Master Reality:1
+All for One:2
+Twin Strike:1
+Offering:0
+Master of Strategy:0
+Simmering Fury:1
+Wreath of Flame:1
+Thinking Ahead:0
+Conclude:1
+Battle Trance:0
+Jack of All Trades:0
+Pride:1
+Tantrum:1
+Footwork:1
+Study:2
+Well-Laid Plans:1
+Insight:0
+Sash Whip:1
+Defend:1
+Steam Barrier:0
+Sands of Time:4
+Loop:1
+Hemokinesis:1
+Demon Form:3
+Consecrate:0
+Foresight:1
+Alchemize+:0
+Auto-Shields:1
+Ragnarok:3
+Slimed:1
+Envenom:2
+Iron Wave:1
+Pray:1
+Ritual Dagger:1
+Strike:1
+Backflip:1
+Calculated Gamble:0
+Sword Boomerang:1
+Rebound:1
+Strike:1
+Flying Sleeves:1
+Zap:1
+Fusion+:1
+Mayhem+:1
+Bite:1
+A Thousand Cuts:2
+Magnetism+:1
+Fear No Evil:1
+Mind Blast:2
+Tranquility+:0
+Chrysalis:2
+Setup:1
+Sentinel:1
+Double Tap:1
+Flying Sleeves:1
+Pummel:1
+After Image:1
+Flex:0
+Equilibrium:2
+Noxious Fumes:1
+Smite:1
+Dual Wield:1
+Caltrops:1
+Vault:3
+Claw:0
+Rage:0
+Well-Laid Plans:1
+A Thousand Cuts:2
+Fire Breathing:1
+Glacier:2
+Warcry:0
+Sever Soul:2
+Concentrate:0
+Dualcast:1
+Barricade:3
+Clothesline:2
+Alpha:1
+Terror+:0
+Anger:0
+Beta:2
+Dual Wield:1
+Fiend Fire:2
+Poisoned Stab:1
+Amplify:1
+Beta+:1
+Rampage:1
+Recursion+:0
+Shrug It Off:1
+Wallop:2
+Signature Move:2
+Swivel:2
+Chaos:1
+Heatsinks:1
+Outmaneuver:1
+Dark Embrace+:1
+Thinking Ahead:0
+Strike:1
+Entrench:2
+Rip and Tear:1
+Chill:0
+Clash:0
+Seeing Red+:0
+Hologram:1
+Equilibrium:2
+Recursion:1
+Cold Snap:1
+Dagger Spray:1
+Omega:3
+Halt:0
+Battle Trance:0
+Recursion:1
+Dark Embrace:2
+Insight:0
+Limit Break:1
+Halt:0
+Blood for Blood+:3
+Battle Trance:0
+Perseverance:1
+Second Wind:1
+Pommel Strike:1
+Study+:1
+Defend:1
+Crescendo:1
+Shockwave:2
+Blizzard:1
+Mind Blast:2
+Corpse Explosion:2
+Crescendo+:0
+Dualcast+:0
+Fire Breathing:1
+Strike:1
+Slice:0
+Demon Form:3
+Eruption:2
+Defragment:1
+Electrodynamics:2
+Eviscerate:3
+Clash:0
+Beta+:1
+Envenom+:1
+Sucker Punch:1
+Rushdown+:0
+Dropkick:1
+Prepared:0
+Madness:1
+Hand of Greed:2
+Enlightenment:0
+Compile Driver:1
+Like Water:1
+Armaments:1
+Poisoned Stab:1
+Noxious Fumes:1
+Predator:2
+All-Out Attack:1
+Dagger Throw:1
+Judgment:1
+FTL:0
+Grand Finale:0
+Storm of Steel:1
+Tranquility+:0
+Meditate:1
+Machine Learning:1
+Accuracy:1
+Recycle+:0
+Poisoned Stab:1
+Entrench:2
+Talk to the Hand:1
+Entrench+:1
+Violence:0
+Indignation:1
+Deadly Poison:1
+Vigilance:2
+Forethought:0
+Devotion:1
+Machine Learning:1
+Warcry:0
+Spot Weakness:1
+Mayhem:2
+Perseverance:1
+Flurry of Blows:0
+Study:2
+Heatsinks:1
+Dark Embrace+:1
+Burst:1
+Sanctity:1
+Like Water:1
+Flying Knee:1
+Go for the Eyes:0
+Safety:1
+Deep Breath:0
+Steam Barrier:0
+Bite:1
+Escape Plan:0
+Hello World:1
+J.A.X.:0
+Defend:1
+Infernal Blade:1
+Hologram:1
+Wheel Kick:2
+Spot Weakness:1
+Blizzard:1
+Clash:0
+Charge Battery:1
+Seeing Red+:0
+Barricade+:2
+Double Energy:1
+Deceive Reality:1
+Flurry of Blows:0
+Shockwave:2
+Survivor:1
+Tantrum:1
+Berserk:0
+Headbutt:1
+Backstab:0
+Aggregate:1
+Deceive Reality:1
+Pommel Strike:1
+Flurry of Blows:0
+Slimed:1
+Master of Strategy:0
+Dualcast+:0
+Blasphemy:1
+Boot Sequence:0
+Metallicize:1
+Scrawl+:0
+Double Energy:1
+Blur:1
+Pressure Points:1
+Meditate:1
+Heavy Blade:2
+Miracle:0
+Fiend Fire:2
+Scrape:1
+Blood for Blood+:3
+Adrenaline:0
+Seeing Red+:0
+Capacitor:1
+Barricade+:2
+Wallop:2
+Consecrate:0
