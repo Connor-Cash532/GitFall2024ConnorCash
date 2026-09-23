@@ -1,11 +1,61 @@
-There have been 15 total commits. The first being on 9-10-2024 and the most recent commit with me as the author done on 9-16-26.
-The .gitignore file has the change of adding properties.txt staged but there have not been any commits that have modified the file. Which is shown by the following output, “connorcash@Connors-MacBook-Pro GitFall2024ConnorCash % git log .gitignore connorcash@Connors-MacBook-Pro GitFall2024ConnorCash % git log Main.java
-commit b3e573c8b75940e9bbcda519b0bece046f4b60ebAuthor: Esteban Parra <estebanpr014@gmail.com>Date:   Tue Sep 10 10:06:47 2024 -0500 
+There have been 20 total commits. The first being on 9-10-2024, and the most recent commit with me as the author was done on 9-23-26. The number of commits is shown by the following git command, 
 
- added another name”
-You would use the command git ls-tree -r --name-only $(git rev-list -1 --until="2020-06-01" main) which calls git ls-tree on the commit given by the command git rev-list -1 --until="2020-06-01" main.
-NO SRC File
-NO File
+connorcash@Connors-MacBook-Pro GitFall2024ConnorCash % git rev-list --count --all
+20
+
+The .gitignore has been modified 3 times and was last modified by me on September 23, 2026 which is shown by the following terminal output
+
+connorcash@Connors-MacBook-Pro GitFall2024ConnorCash % git log .gitignore
+commit 4974916cadc828351e39fb6a60eb35cead6023e2 (HEAD -> main)
+Merge: 625c6fb e7fd94b
+Author: Connor Cash <cashconnor0224@gmail.com>
+Date:   Wed Sep 23 12:09:00 2026 -0500
+    Subject: Merged local repository with forked repository
+    
+    Pulled changes from forked repository with updated files and Merged
+    them with the local branch
+commit e7fd94bc0664e9558068ae2836794523f93a497f (upstream/main)
+Author: Esteban Parra <estebanpr014@gmail.com>
+Date:   Tue Sep 22 09:35:42 2026 -0500
+    Create .gitignore
+    
+    Added .gitignore file
+commit d507ff0adeadc38dc956af7e27c8b5354caeebb0
+Author: Connor Cash <cashconnor0224@gmail.com>
+Date:   Mon Sep 21 13:43:29 2026 -0500
+    Subject: Added SlaySpire project
+    
+    Added a SlaySpire project which allows the user to select a txt file containing Slay The Spire cards
+    and runs a report on the total cost of the deck of cards and gives a histogram on the deck. The program
+    saves the report as a pdf in a folder specified by the user.
+
+You would use the command git ls-tree -r --name-only $(git rev-list -1 --until="2020-06-01" main) which calls git ls-tree on the commit given by the command git rev-list -1 --until="2020-06-01" main. 
+There has been one commit modifying the src folder which is shown by the following terminal output.
+
+connorcash@Connors-MacBook-Pro GitFall2024ConnorCash % git rev-list main src 
+6aa1abee20eed47f2b9cc1f5aa21c19d72ab80ee
+connorcash@Connors-MacBook-Pro GitFall2024ConnorCash % git log src
+commit 6aa1abee20eed47f2b9cc1f5aa21c19d72ab80ee
+Author: Esteban Parra <estebanpr014@gmail.com>
+Date:   Tue Sep 22 08:50:34 2026 -0500
+    Files added
+    
+    Added files missing
+
+The following terminal output shows that one insertion was made in the commit where Remove.txt was created.
+
+connorcash@Connors-MacBook-Pro GitFall2024ConnorCash % git show --stat 6aa1abee20eed47f2b9cc1f5aa21c19d72ab80ee
+commit 6aa1abee20eed47f2b9cc1f5aa21c19d72ab80ee
+Author: Esteban Parra <estebanpr014@gmail.com>
+Date:   Tue Sep 22 08:50:34 2026 -0500
+    Files added
+    
+    Added files missing
+ Remove.txt    |   1 +
+ src/file.java | 133 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 2 files changed, 134 insertions(+)
+
+
 git log gives the commit history of the repository. Each commit shown in git log has an id, author, date, and commit message. git status shows the differences in files between the last commit and the local repository. The output shows the files in the staging area, the untracked files, and the modified files not in the staging area.
 git shortlog groups the commits in the repository with each author. It gives a simplified output compared to git log where it gives an author and under the author is their commits with the commit message.
 To see commits that included Main.java as part of the committed files you would use the command git log -- Main.java
