@@ -1,0 +1,32 @@
+Searing Blow:2
+Crescendo+:0
+The Bomb:2
+Melter:1
+Devotion:1
+Intimidate:0
+Noxious Fumes:1
+Bullseye:1
+Crush Joints:1
+Vault:3
+Purity:0
+Bane:1
+Reprogram:1
+Neutralize:0
+Claw:0
+Sanctity:1
+Auto-Shields:1
+Strike:1
+Spot Weakness:1
+Infinite Blades:1
+Blur:1
+True Grit:1
+Swivel:2
+Hologram:1
+Dagger Throw:1
+Rip and Tear:1
+Worship:2
+Charge Battery:1
+
+
+
+

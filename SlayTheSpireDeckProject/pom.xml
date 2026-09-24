@@ -28,6 +28,17 @@
       <artifactId>openpdf</artifactId>
       <version>2.0.3</version>
     </dependency>
+    <dependency>
+      <groupId>com.itextpdf</groupId>
+      <artifactId>itext-core</artifactId>
+      <version>9.7.0</version>
+      <type>pom</type>
+    </dependency>
+    <dependency>
+      <groupId>com.itextpdf</groupId>
+      <artifactId>bouncy-castle-adapter</artifactId>
+      <version>9.7.0</version>
+    </dependency>
   </dependencies>
   <build>
     <plugins>

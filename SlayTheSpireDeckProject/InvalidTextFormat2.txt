@@ -1,0 +1,5 @@
+Last login: Thu Sep 10 10:04:24 on ttys000
+connorcash@Connors-MacBook-Pro ~ % mkdir csc2040
+connorcash@Connors-MacBook-Pro ~ % cd csc2040 
+connorcash@Connors-MacBook-Pro csc2040 % git clone https://github.com/Connor-Cash532/GitFall2024ConnorCash
+Cloning into 'GitFall2024ConnorCash'...

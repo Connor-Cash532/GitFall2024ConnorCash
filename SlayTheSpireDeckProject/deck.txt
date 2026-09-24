@@ -1,4 +1,4 @@
-All-Out Attack:1
+All-Out Attac:k:1
 Go for the Eyes:0
 Storm:1
 Equilibrium:2
@@ -13,7 +13,7 @@ Genetic Algorithm:1
 Fiend Fire:2
 Flame Barrier:2
 Indignation:1
-Secret Weapon:0
+Secret Weapon:0J
 Buffer:2
 Backstab:0
 Meditate:1

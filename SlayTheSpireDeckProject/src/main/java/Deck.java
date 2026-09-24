@@ -1,10 +1,27 @@
 import java.util.*;
 import java.io.*;
 import java.lang.Math;
+
+/**
+ *  The Deck class represents a deck of cards.
+ *  Attributes: A id, a hash map of the frequency of each card, a 2D array of
+ *  cards where the first array is the deck of valid cards and the second array is the
+ *  deck of invalid cards.
+ */
 public class Deck {
     private int id;
     private HashMap<String, Integer> counts;
     private Card[][] cards;
+
+    /**
+     * The Deck constructor takes in a deck of valid and invalid cards as a parameter and assigns it to
+     * the cards attribute of the class.
+     *
+     * The constructor generates a random 9-digit id for the deck using the generateId() method.
+     * The constructor generates a hashmap for the frequency of cards in the
+     * deck using the getCounts(Card[] c) method.
+     * @param cards
+     */
     public Deck(Card[][] cards){
         if(cards.length > 0){
             this.id = generateId();
@@ -18,6 +35,11 @@ public class Deck {
         }
     }
 
+    /**
+     *
+     * @param cards
+     * @return a hash map of the frequency of each card
+     */
     public static HashMap<String, Integer> getCounts(Card[] cards){
         String tempName = "";
         HashMap<String, Integer> counts = new HashMap<>();
@@ -33,6 +55,11 @@ public class Deck {
         return counts;
     }
 
+    /**
+     * The method uses the cards attribute to format a queue containing strings of the invalid cards
+     * which are reformatted to the format of the cards in the text file.
+     * @return queue with invalid cards
+     */
     public Queue<String> invalidCards(){
         Queue<String> q = new LinkedList<>();
         Queue<Card>  invalidCards = new LinkedList<>();
@@ -51,6 +78,14 @@ public class Deck {
         return q;
     }
 
+    /**
+     * The method uses the counts hashmap to generate a histogram of the deck.
+     * Strings are used in queue to allow for the method to be used to write
+     * contents to a file.
+     *
+     *
+     * @return queue of strings used for the histogram
+     */
     public Queue<String> generateHistogram(){
         Queue<String> q = new LinkedList<>();
         int max = 0;
@@ -122,24 +157,34 @@ public class Deck {
         return q;
     }
 
-    public HashMap<String, Integer> getCounts(){
-        return counts;
-    }
 
+
+    /**
+     * The method accesses and returns the cards attribute
+     * @return cards
+     */
     public Card[][] getCards() {
         return cards;
     }
 
+    /**
+     * The method accesses and returns the Deck id
+     * @return id
+     */
     public int getId() {
         return id;
     }
 
+    /**
+     * The method sums the energy costs of all values of the valid cards and returns the sum.
+     * @return sum
+     */
     public double totalCost(){
         double sum = 0;
         if(cards.length > 0){
             Card[] validCards = cards[0];
             for(Card card : validCards){
-                if(card != null && card.getScore() > 0){
+                if(card != null && card.getScore() >= 0){
                     sum += card.getScore();
                 }
             }
@@ -147,34 +192,14 @@ public class Deck {
         return sum;
     }
 
+    /**
+     * The method generates a random 9-digit number.
+     * @return Deck id
+     */
     public static int generateId(){
         Random random = new Random();
         return  random.nextInt(900000000) + 100000000;
     }
 
-    public static boolean iDExists(String id) throws FileNotFoundException {
-        HashSet<String> ids = getFileText("Decks.txt");
-        if(ids != null){
-            return ids.contains(id);
-        }
-        return false;
-    }
-
-    public static HashSet<String> getFileText(String filePath) throws FileNotFoundException {
-        File obj2 = new File(filePath);
-        if(obj2.exists()){
-            Scanner scan = new Scanner(obj2);
-            String temp = "";
-            HashSet<String> ids = new HashSet<>();
-            int i = 0;
-            while(scan.hasNextLine()){
-                temp = scan.nextLine();
-                if(!ids.contains(temp))
-                    ids.add(temp);
-            }
-            return ids;
-        }
-        return null;
-    }
 
 }

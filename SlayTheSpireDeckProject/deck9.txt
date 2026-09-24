@@ -1,0 +1,250 @@
+Reckless Charge:0
+Twin Strike:1
+Combust:1
+Hello World:1
+Wave of the Hand:1
+Charge Battery:1
+Metallicize:1
+Entrench:2
+Carnage:2
+White Noise:1
+Bite:1
+Dark Embrace:2
+Deep Breath:0
+Concentrate:0
+Concentrate:0
+Infinite Blades:1
+Crescendo:1
+Battle Hymn:1
+Calculated Gamble:0
+Coolheaded:1
+Ragnarok:3
+Distraction:1
+Bludgeon:3
+Acrobatics:1
+Trip:0
+Flying Sleeves:1
+Second Wind:1
+Headbutt:1
+Equilibrium:2
+Strike:1
+Evolve:1
+Rupture:1
+Static Discharge:1
+Fasting:2
+Infinite Blades:1
+Wish:3
+Calculated Gamble:0
+Unload:1
+Consume:2
+Escape Plan:0
+Streamline:2
+Well-Laid Plans:1
+Ritual Dagger:1
+Acrobatics:1
+Loop:1
+Feed:1
+Meditate:1
+Distraction+:0
+Self Repair:1
+Cut Through Fate:1
+Die Die Die:1
+Setup+:0
+Bloodletting:0
+Body Slam:1
+Dualcast:1
+Phantasmal Killer:1
+Ball Lightning:1
+Pride:1
+Leg Sweep:2
+Secret Weapon:0
+Spot Weakness:1
+Blind:0
+Mental Fortress:1
+Safety:1
+Follow-Up:1
+Force Field:4
+Miracle:0
+Dagger Throw:1
+Scrawl+:0
+Zap+:0
+Strike:1
+Impatience:0
+Second Wind:1
+Beta+:1
+Wraith Form:3
+Crescendo:1
+Empty Body:1
+Blur:1
+Swivel:2
+Just Lucky:0
+Concentrate:0
+Electrodynamics:2
+Chaos:1
+Madness:1
+White Noise:1
+Twin Strike:1
+Chill:0
+Well-Laid Plans:1
+All for One:2
+Empty Fist:1
+TURBO:0
+Equilibrium:2
+Pommel Strike:1
+Backstab:0
+Quick Slash:1
+Ball Lightning:1
+Self Repair:1
+Limit Break:1
+Grand Finale:0
+Deep Breath:0
+Reboot:0
+Rampage:1
+Sands of Time:4
+Leg Sweep:2
+Fusion:2
+Shrug It Off:1
+Terror+:0
+Nightmare+:2
+Dash:2
+Dash:2
+Disarm:1
+Fusion+:1
+Defragment:1
+Boot Sequence:0
+Deadly Poison:1
+Rainbow:2
+Bouncing Flask:2
+Nightmare:3
+Flying Sleeves:1
+Protect:2
+Double Tap:1
+Pummel:1
+Well-Laid Plans:1
+Bloodletting:0
+Pressure Points:1
+Feel No Pain:1
+Insight:0
+Eruption+:1
+Reaper:2
+Seek:0
+Iron Wave:1
+Outmaneuver:1
+Flying Knee:1
+Slimed:1
+Double Energy:1
+Sash Whip:1
+Blood for Blood:4
+Noxious Fumes:1
+Stack:1
+Carve Reality:1
+Havoc:1
+Poisoned Stab:1
+Predator:2
+Power Through:1
+Dodge and Roll:1
+Tantrum:1
+Slimed:1
+Echo Form:3
+Lesson Learned:2
+Sneaky Strike:2
+Spirit Shield:2
+Mental Fortress:1
+Reboot:0
+Wheel Kick:2
+Deceive Reality:1
+Vault:3
+White Noise:1
+TURBO:0
+Seeing Red+:0
+Footwork:1
+Sever Soul:2
+Genetic Algorithm:1
+Safety:1
+Evaluate:1
+Auto-Shields:1
+Flechettes:1
+Melter:1
+Bane:1
+Apotheosis+:1
+Sunder:3
+Violence:0
+Expunger:1
+Distraction:1
+Unload:1
+Neutralize:0
+Panacea:0
+Blade Dance:1
+Unload:1
+Inner Peace:1
+Compile Driver:1
+A Thousand Cuts:2
+Amplify:1
+Leap:1
+All-Out Attack:1
+Study+:1
+Footwork:1
+Strike:1
+Cloak and Dagger:1
+Sadistic Nature:0
+Bite:1
+Blur:1
+Strike:1
+Loop:1
+Study:2
+Brutality:0
+Bullet Time:3
+Cloak and Dagger:1
+Body Slam:1
+Beam Cell:0
+Demon Form:3
+Accuracy:1
+Beta+:1
+Rage:0
+Zap+:0
+Clash:0
+Corruption:3
+Backstab:0
+Carnage:2
+Like Water:1
+Crescendo:1
+True Grit:1
+Calculated Gamble:0
+Wild Strike:1
+Bullet Time+:2
+Dark Embrace:2
+Scrawl:1
+Cloak and Dagger:1
+Strike:1
+Vault:3
+Evaluate:1
+Dropkick:1
+Creative AI+:2
+Apparition:1
+Bullet Time+:2
+Hologram:1
+Infernal Blade+:0
+Weave:0
+Blur:1
+Defend:1
+Pride:1
+Sunder:3
+Leap:1
+Capacitor:1
+Slice:0
+Blasphemy:1
+Skim:1
+Well-Laid Plans:1
+Battle Trance:0
+Recursion:1
+Coolheaded:1
+Alchemize+:0
+Body Slam+:0
+Talk to the Hand:1
+Heatsinks:1
+Master of Strategy:0
+Heavy Blade:2
+Glacier:2
+Nirvana:1
+Metallicize:1
+Doom and Gloom:2

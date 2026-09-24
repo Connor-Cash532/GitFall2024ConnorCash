@@ -1,0 +1,150 @@
+Metamorphosis:2
+Scrape:1
+Flying Knee:1
+Feed:1
+Combust:1
+Cloak and Dagger:1
+Equilibrium:2
+Envenom:2
+Spot Weakness:1
+Catalyst:1
+Survivor:1
+Panic Button:0
+Weave:0
+Panic Button:0
+Shockwave:2
+Tools of the Trade+:0
+Bane:1
+Acrobatics:1
+Blind:0
+Magnetism+:1
+Master of Strategy:0
+Calculated Gamble:0
+Heel Hook:1
+Blood for Blood:4
+Panacea:0
+Overclock:0
+TURBO:0
+Sentinel:1
+Leap:1
+Flurry of Blows:0
+Corruption:3
+Nightmare:3
+Glacier:2
+Alpha:1
+Empty Body:1
+Berserk:0
+Impervious:2
+Carve Reality:1
+Riddle with Holes:2
+Echo Form:3
+Flex:0
+Flex:0
+Bullseye:1
+Impatience:0
+Sneaky Strike:2
+Good Instincts:0
+Storm of Steel:1
+Apotheosis+:1
+Demon Form:3
+Heatsinks:1
+Eruption:2
+Defend:1
+Apotheosis:2
+Hologram:1
+Acrobatics:1
+Strike:1
+Perfected Strike:2
+True Grit:1
+After Image:1
+TURBO:0
+Deadly Poison:1
+Reach Heaven:2
+Darkness:1
+Jack of All Trades:0
+Flame Barrier:2
+Storm of Steel:1
+Enlightenment:0
+Heavy Blade:2
+Bullet Time:3
+Deep Breath:0
+Melter:1
+Thunder Strike:3
+Fission:0
+Conclude:1
+Bloodletting:0
+Crescendo:1
+Defend:1
+Chaos:1
+Exhume:1
+Evaluate:1
+Dual Wield:1
+Wave of the Hand:1
+Dramatic Entrance:0
+Battle Hymn:1
+Impervious:2
+Steam Barrier:0
+Skim:1
+Apparition:1
+Fear No Evil:1
+Tranquility+:0
+Noxious Fumes:1
+Terror+:0
+Burning Pact:1
+Quick Slash:1
+Distraction:1
+Spirit Shield:2
+All for One:2
+Rampage:1
+Flying Knee:1
+Ragnarok:3
+Sucker Punch:1
+White Noise+:0
+Halt:0
+After Image:1
+Searing Blow:2
+Neutralize:0
+Sword Boomerang:1
+Dash:2
+Clothesline:2
+Secret Weapon:0
+Rage:0
+Dramatic Entrance:0
+Bandage Up:0
+Recycle:1
+Feel No Pain:1
+Double Tap:1
+Fasting:2
+Devotion:1
+Empty Mind:1
+Power Through:1
+Perseverance:1
+Third Eye:1
+Wave of the Hand:1
+Rupture:1
+Hyperbeam:2
+Blind:0
+Thunder Strike:3
+Zap+:0
+Reboot:0
+Shrug It Off:1
+Sadistic Nature:0
+Bullet Time:3
+Darkness:1
+Recursion+:0
+Evaluate:1
+Terror+:0
+Poisoned Stab:1
+Entrench+:1
+Heatsinks:1
+Overclock:0
+Signature Move:2
+Thunderclap:1
+Masterful Stab:0
+Hologram:1
+Wheel Kick:2
+Compile Driver:1
+Sucker Punch:1
+Bash:2
+Blood for Blood+:3
+Footwork:1

@@ -1,23 +1,38 @@
-import com.lowagie.text.Document;
-import com.lowagie.text.Paragraph;
+import com.lowagie.text.Font;
+import com.lowagie.text.Rectangle;
+import com.lowagie.text.*;
 import com.lowagie.text.pdf.PdfWriter;
-import java.awt.FlowLayout;
-import java.awt.event.*;
+
+import javax.swing.*;
+import javax.swing.filechooser.FileNameExtensionFilter;
+import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 import java.io.File;
-import java.io.FileDescriptor;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
+import java.util.Queue;
 import java.util.*;
-import javax.swing.*;
-import javax.swing.filechooser.*;
 
+/**
+ * The GUI class constructs a GUI that allows the user to pick a text file with Slay the Spire cards and
+ * pick a folder to save a report of the Slay the Spire cards
+ *
+ * The GUI class has the attributes of a filePickerButton, runReportButton, selectSaveButton
+ */
 public class GUI extends JFrame implements ActionListener {
     JButton filePickerButton, runReportButton, selectSaveButton;
+    JLabel label, label2;
     static File inputPath;
     static File outputPath;
-    GUI(){
+
+    /**
+     * The GUI constructor sets the text of each button and disables the use of the report button
+     * and save button. The constructor also adds action listeners than handle user input.
+     * The buttons and two panels containing labels with text for the user are added to the Frame.
+     */
+    public GUI(){
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        this.setLayout(new FlowLayout());
 
         filePickerButton = new JButton("Select File");
         filePickerButton.addActionListener(this);
@@ -26,17 +41,64 @@ public class GUI extends JFrame implements ActionListener {
         runReportButton.addActionListener(this);
         runReportButton.setEnabled(false);
 
+        JPanel labels = new JPanel(new BorderLayout());
+        label = new JLabel("<html><div style='width:400px;text-align:center'> " +
+                "Slay The Spire Deck Reporter" +
+                "</div></html>", SwingConstants.CENTER);
+
+        String instructions = "The following program produces a report on a text file containing" +
+                "Slay The Spire cards. The user inputs a text file containing Slay The Spire cards using" +
+                "the Select File button. Then the user selects a folder that will contain the report using the" +
+                "Select Report Directory button. Then the user can run the report on the deck which saves" +
+                "the report in the chosen directory";
+
+        label2 = new JLabel("<html><div style='width:400px;text-align:center'>"
+                + instructions +
+                "</div></html>", SwingConstants.CENTER);
+
+        labels.setLayout(new GridLayout(2, 1));
+        labels.add(label);
+        labels.add(label2);
+
+        label.setFont(label.getFont().deriveFont(36.0f));
 
         selectSaveButton = new JButton("Select Report Directory");
         selectSaveButton.addActionListener(this);
         selectSaveButton.setEnabled(false);
-        this.add(filePickerButton);
-        this.add(runReportButton);
-        this.add(selectSaveButton);
+
+        JPanel buttons = new JPanel(new FlowLayout());
+
+        buttons.add(filePickerButton);
+        buttons.add(runReportButton);
+        buttons.add(selectSaveButton);
+
+        this.setLayout(new GridLayout(3, 1));
+        this.add(labels, BorderLayout.CENTER);
+        this.add(buttons, BorderLayout.CENTER);
+
+
         this.pack();
         this.setVisible(true);
     }
 
+    /**
+     * The action performed method implements the action listener interface.
+     *
+     * If the ActionEvent is the filePickerButton then the JFileChooser object and FileNameExtensionFilter
+     * is used to allow the user to select a file. Once the user chooses a file
+     * the selected file is saved to the static inputFile variable and the button that allows the user
+     * to set a save directory is enabled.
+     *
+     * If the ActionEvent is the runReportButton then the inputFile is read using the getLines method, valid
+     * and invalid cards are saved in a 2D array of cards, a Deck object is instantiated with the cards, and
+     * then a report for the deck is generated.
+     *
+     * If the ActionEvent is the selectSaveButton then a JFileChooser object allows the user to select a directory
+     * which is saved to the outputPath variable. When the user selects a file, the report button is enabled.
+     *
+     *
+     * @param e the event to be processed
+     */
     @Override
     public void actionPerformed(ActionEvent e) {
 
@@ -81,10 +143,35 @@ public class GUI extends JFrame implements ActionListener {
         }
     }
 
+    /**
+     * The generateReport method takes in a deck of cards a generates a report containing the total
+     * cost of the valid cards in the deck, a histogram of the deck, and a list of the invalid cards in the
+     * deck.
+     *
+     * The method first counts the number of non-null valid cards in the deck and non-null invalid cards
+     * in the deck.
+     *
+     * The method then checks if there are more than 1000 cards in the deck, the deck is null, or there are
+     * more than 10 improperly formatted cards where a proper format is "cardName:cardCost" and an improper format
+     * is anything else. If these checks are all false then a string is built by using the deck attributes:
+     * getId, totalCost, generateHistogram, and invalidCards. Then the string is written to a document using
+     * the Itext maven library. Once the document is closed invalidFormatCount is set to zero to prevent it
+     * from accumulating after a user generates multiple reports.
+     *
+     *
+     *
+     * @param d
+     * @throws FileNotFoundException
+     */
     public static void generateReport(Deck d) throws FileNotFoundException {
         String s = "";
 
-
+        HashSet<Card> uniqCard = new HashSet<>();
+        for(int i = 0; i < d.getCards()[0].length; i++){
+            if(!uniqCard.contains(d.getCards()[0][i]))
+                uniqCard.add(d.getCards()[0][i]);
+        }
+        int numUniqCards = uniqCard.size();
         int numInvalidCards = 0;
         for(int i = 0; i < d.getCards()[1].length; i++){
             if(d.getCards()[1][i] != null)
@@ -92,15 +179,18 @@ public class GUI extends JFrame implements ActionListener {
         }
         int numValidCards = 0;
         for(int i = 0; i < d.getCards()[0].length; i++){
-            if(d.getCards()[1][i] != null)
+            if(d.getCards()[0][i] != null)
                 numValidCards++;
         }
-        if(d.getCards() != null && invalidFormatCount <= 10 && d.getCards()[0].length <= 1000){
-            System.out.println(numInvalidCards);
-            if(numInvalidCards > 10 || (numValidCards + numInvalidCards > 1000)){
-                generateVoidReport(d);
-                return;
-            }
+
+        for(Card c : d.getCards()[0]) {
+            if(c != null)
+                System.out.println(c.getName());
+        }
+
+        // Checks for if a deck of cards should generate a void report
+        if(d.getCards() != null && invalidFormatCount <= 10 && d.getCards()[0].length <= 1000
+                && (numInvalidCards <= 10 || (numValidCards + numInvalidCards > 1000)) && numValidCards != 0){
             int id  = d.getId();
             double cost = d.totalCost();
             Queue<String> q = d.generateHistogram();
@@ -112,7 +202,7 @@ public class GUI extends JFrame implements ActionListener {
                 while(!q.isEmpty()){
                     s += q.poll();
                 }
-                s += "\n\nInvalid Cards\n";
+                s += "\n\nInvalid Cards:\n";
                 while(!invalidCards.isEmpty()){
                     s += invalidCards.poll() + "\n";
                 }
@@ -123,14 +213,35 @@ public class GUI extends JFrame implements ActionListener {
                 e.printStackTrace();
             }
             System.out.println(s);
-            Document doc  = new Document();
+
+
+            // The two lines below set the page size so that the document does not wrap around the histogram
+            float width = 55 * numUniqCards;
+            Rectangle pageSize = new Rectangle(width, 800f);
+
+            Document doc  = new Document(pageSize);
             File outputFile = new File(outputPath, "SlaySpire_" + id + ".pdf");
+
             FileOutputStream stream = new FileOutputStream(outputFile);
             PdfWriter.getInstance(doc, stream);
+
+            // Courier font is used because it is monospace
+            Font f1 = new Font(Font.COURIER);
+
+            // Writing the string to the document
             doc.open();
-            doc.add(new Paragraph(s));
+            Chunk c  = new Chunk();
+            c.setFont(f1);
+            c.append(s);
+            c.setCharacterSpacing(2);
+            Paragraph p = new Paragraph();
+            p.add(c);
+            doc.add(p);
             doc.close();
+
+            // Reset the invalidCount for subsequent reports
             invalidFormatCount = 0;
+            invalidFormat = new LinkedList<>();
 
         }
         else{
@@ -138,8 +249,12 @@ public class GUI extends JFrame implements ActionListener {
         }
     }
 
+    /**
+     * The referenceMap builds a HashMap of the valid Slay The Spire costs where the Key
+     * is the name of the Card and the Value is the cost of the card.
+     * @return
+     */
     public static HashMap<String, String> referenceMap(){
-        double cost = 0;
         String name = "";
         String tempCost = "";
         HashMap<String, String> validCardsAndCosts = new HashMap<>();
@@ -151,6 +266,15 @@ public class GUI extends JFrame implements ActionListener {
         return validCardsAndCosts;
     }
 
+    /**
+     * getCards(String[] textFile) takes in each line of the text file parses it for a card name
+     * and its cost. The method checks if the card is a valid Slay The Spire card by using
+     * the referenceMap() method to check if the name exists. If the card is valid then it is added
+     * to a validCards array.
+     *
+     * @param textFile
+     * @return deck
+     */
     public static Card[][] getCards(String[] textFile){
         HashMap<String, String> validCardsAndCosts = referenceMap();
         double cost = 0;
@@ -187,6 +311,13 @@ public class GUI extends JFrame implements ActionListener {
         return decks;
     }
 
+    /**
+     * The getFileText method adds every line of a text file to an array of Strings.
+     *
+     * @param filePath
+     * @return String[]
+     * @throws FileNotFoundException
+     */
     public static String[] getFileText(String filePath) throws FileNotFoundException {
         try{
             File obj2 = new File(filePath);
@@ -207,15 +338,21 @@ public class GUI extends JFrame implements ActionListener {
             return lines;
         } catch (FileNotFoundException fne){
             System.out.println("File Does Not Exist");
-            //throw fne;
             throw fne;
         }
 
     }
 
+    /**
+     * The method returns true if the cost is a Double or Integer, and returns false if a NumberFormatException
+     * is raised which means the parameter is not a number.
+     * @param line
+     * @return
+     */
     public static boolean isValidCost(String line){
         try {
             Double.parseDouble(line);
+            Integer.parseInt(line);
             return true;
         }
         catch (NumberFormatException nfe){
@@ -223,6 +360,12 @@ public class GUI extends JFrame implements ActionListener {
         }
     }
 
+    /**
+     * The function generates a void report by writing VOID to a document and saving the document
+     * at the output path.
+     * @param d
+     * @throws FileNotFoundException
+     */
     public static void generateVoidReport(Deck d) throws FileNotFoundException {
         String fileName = "SlaySpire_" + Integer.toString(d.getId()) + "(VOID).pdf";
         try{
@@ -241,9 +384,19 @@ public class GUI extends JFrame implements ActionListener {
         }
     }
 
+    /*
+        invalidFormatCount counts the number of times a line in the file does not follow the CardName:CardCost format
+     */
     private static int invalidFormatCount = 0;
+    /*
+        invalidFormat adds strings in the file which do not follow the CardName:CardCost format.
+     */
     private static Queue<String> invalidFormat = new LinkedList<>();
 
+    /* VALID_CARDS represents the valid Slay The Spire cards which were obtained using the Slay the Spire
+        reference. Both the name and costs are represented in the array and also upgraded versions of the
+        cards. An upgraded card is shown by the + symbol at the end of the name, e.g. Entrench+:1
+     */
     static final String[] VALID_CARDS = {
             "Bash:2", "Defend:1", "Strike:1", "Anger:0", "Armaments:1", "Body Slam+:0", "Body Slam:1",
             "Clash:0", "Cleave:1", "Clothesline:2", "Flex:0", "Havoc+:0", "Havoc:1", "Headbutt:1",
