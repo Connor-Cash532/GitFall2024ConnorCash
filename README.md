@@ -1,6 +1,7 @@
 # GitFall2024
 Name: Connor Cash
-Username: Connor-Cash532
+
+Email: connor.cash
 
 
 This is the starter code for your Git Assignment.
